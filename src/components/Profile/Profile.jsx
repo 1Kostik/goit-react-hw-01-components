@@ -39,11 +39,11 @@ const ProfileUser = ({
 ProfileUser.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
-  location: PropTypes.string,
-  imgUrl: PropTypes.string,
-  followers: PropTypes.number,
-  views: PropTypes.number,
-  likes: PropTypes.number,
+  location: PropTypes.string.isRequired,
+  imgUrl: PropTypes.string.isRequired,
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
 };
 
 export default ProfileUser;

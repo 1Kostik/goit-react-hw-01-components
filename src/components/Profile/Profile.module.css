@@ -1,11 +1,17 @@
 .profile {
-   height: 100vh;
+   border: 2px solid rgb(209, 206, 206);
+   width: 280px;
+   margin-left: auto;
+   margin-right: auto;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
-
    color: #010101;
+   margin-bottom: 30px;
+}
+.profile:hover {
+   background-color: rgb(54, 232, 255);
 }
 
 .description {
@@ -32,8 +38,8 @@
 
 .stats>li {
    text-align: center;
-   height: 100px;
-   width: 120px;
+   height: 90px;
+   width: 92px;
    border: 1px solid #80808026;
    display: flex;
    flex-direction: column;
@@ -54,6 +60,9 @@
 }
 
 .avatar {
-   width: 200px;
-   border-radius: 100%;
+background-color: #f0f8ff;
+   border-radius: 50%;
+   height: 150px;
+   margin-bottom: 20px;
+   width: 150px;
 }

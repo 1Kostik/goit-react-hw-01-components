@@ -1,0 +1,32 @@
+.transaction-history{
+   width: 280px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px solid rgb(209, 206, 206);
+
+}
+.transaction-history th {
+   background-color: rgb(95, 209, 220);
+   color: aliceblue;
+   text-transform: uppercase;
+   font-size: 14px;
+   width: 90px;
+}
+
+.transaction-history tr {
+   text-align: center;
+}
+
+.transaction-history tbody tr:hover {
+   transform: scale(1.03);
+background-color: rgb(54, 232, 255);
+}
+
+
+.transaction-history tr:nth-child(2n) {
+   background-color: rgb(182, 251, 174);
+}
+
+.transaction-history td:nth-child(1)::first-letter {
+   text-transform: uppercase;
+}
