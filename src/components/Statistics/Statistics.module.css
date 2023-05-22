@@ -4,36 +4,35 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-width: 280px;
-margin-left: auto;
-margin-right: auto;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
   color: #010101;
 }
-.title{
-  
+.title {
   text-transform: uppercase;
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 600;
 }
-.statistics:hover{
-  background-color:rgb(54, 232, 255);
+.statistics:hover {
+  background-color: rgb(54, 232, 255);
 }
 .stat-list {
   list-style: none;
   display: flex;
 }
 /* li:first-child */
-.stat-list>li:first-child {
+.stat-list > li:first-child {
   background-color: #54c2f7;
 }
-.stat-list>li:nth-child(2) {
+.stat-list > li:nth-child(2) {
   background-color: #cd94ef;
 }
-.stat-list>li:nth-child(3) {
+.stat-list > li:nth-child(3) {
   background-color: #e64c66;
 }
-.stat-list>li:last-child {
+.stat-list > li:last-child {
   background-color: #64c4d3;
 }
 .item {
