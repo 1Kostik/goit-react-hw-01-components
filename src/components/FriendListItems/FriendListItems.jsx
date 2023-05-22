@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import css from './FriendListItems.module.css';
 const FriendListItems = ({ avatar, name, isOnline }) => {
-   const status = [css.status, (isOnline ? css.green : css.red)]
+   const className = [css.status, (isOnline ? css.green : css.red)]
    return (
       <>      <li className={css.item} >
-         <span className={status.join(" ")}></span>
+         <span className={className.join(" ")}></span>
          <img className={css.avatar} src={avatar} alt={name} width="48" />
          <p className={css.name}>{name}</p>
       </li>
